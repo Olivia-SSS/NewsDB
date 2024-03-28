@@ -44,7 +44,7 @@ public class Main {
             System.out.println("Failed to publish news.");
         }
 
-        // Test saving news for a user
+        // Test saving news article for a user
         contentDAO.saveNewsForUser(1, 1); // Assuming '1' is user_id and '101' is news_id
 
         // Test marking a news article as shared by a user
